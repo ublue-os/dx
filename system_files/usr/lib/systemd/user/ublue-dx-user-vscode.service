@@ -1,11 +1,11 @@
 [Unit]
-Description=Run 
+Description=Configure VS Code for user
 Wants=network-online.target
 After=network-online.target ublue-user-setup.service
 
 [Service]
 Type=oneshot
-ExecStart=/usr/libexec/bluefin-dx-user-vscode
+ExecStart=/usr/libexec/ublue-dx-user-vscode
 Restart=on-failure
 RestartSec=30
 StartLimitInterval=0
