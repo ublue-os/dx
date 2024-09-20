@@ -17,5 +17,4 @@ rsync -rvK /ctx/system_files/dx/ /
 /ctx/build_files/fonts-dx.sh
 /ctx/build_files/workarounds.sh
 /ctx/build_files/systemd-dx.sh
-/ctx/build_files/branding-dx.sh
 /ctx/build_files/cleanup-dx.sh
